@@ -1,0 +1,51 @@
+name: algorithm_visualizer
+description: "A comprehensive algorithm visualization app for learning"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management (BLoC)
+  flutter_bloc: ^9.0.0
+  bloc: ^9.0.0
+
+  # Dependency Injection
+  get_it: ^8.0.3
+
+  # Localization (Arabic + English)
+  easy_localization: ^3.0.8
+
+  # UI & Responsive
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.2.1
+
+  # Utilities
+  collection: ^1.18.0
+  equatable: ^2.0.5
+  vector_math: ^2.1.4
+
+  # Storage (for settings)
+  shared_preferences: ^2.3.2
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
+    - assets/images/
