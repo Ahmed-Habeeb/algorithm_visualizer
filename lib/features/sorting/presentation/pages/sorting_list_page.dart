@@ -20,6 +20,13 @@ class SortingListPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Sorting Algorithms'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.compare_arrows),
+            onPressed: () => context.toNamed(Routes.sortingComparison),
+            tooltip: 'Compare Algorithms',
+          ),
+        ],
       ),
       body: BlocBuilder<SortingBloc, SortingState>(
         builder: (context, state) {

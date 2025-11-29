@@ -25,5 +25,6 @@ class SortingDI extends BaseDI {
   @override
   void registerBlocs() {
     _getIt.registerFactory<SortingBloc>(() => SortingBloc());
+    _getIt.registerFactory<SortingComparisonBloc>(() => SortingComparisonBloc());
   }
 }
