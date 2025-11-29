@@ -18,6 +18,8 @@ import '../../features/dynamic_programming/presentation/pages/dp_list_page.dart'
 import '../../features/dynamic_programming/presentation/pages/dp_visualizer_page.dart';
 import '../../features/settings/presentation/pages/settings_page.dart';
 import '../../features/sorting/presentation/bloc/sorting_bloc.dart';
+import '../../features/sorting/presentation/bloc/sorting_comparison_bloc.dart';
+import '../../features/sorting/presentation/pages/sorting_comparison_page.dart';
 import '../../features/searching/presentation/bloc/searching_bloc.dart';
 import '../../features/graph/presentation/bloc/comparison_bloc.dart';
 import '../../features/graph/presentation/bloc/grid_bloc.dart';
@@ -53,6 +55,15 @@ class AppRouter {
             child: SortingVisualizerPage(
               algorithmId: args['algorithmId'] as String,
             ),
+          ),
+          settings,
+        );
+
+      case Routes.sortingComparison:
+        return _buildRoute(
+          BlocProvider(
+            create: (_) => getIt<SortingComparisonBloc>(),
+            child: const SortingComparisonPage(),
           ),
           settings,
         );

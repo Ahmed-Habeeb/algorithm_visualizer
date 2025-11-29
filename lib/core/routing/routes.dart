@@ -8,6 +8,7 @@ class Routes {
   // Sorting
   static const String sortingList = '/sorting';
   static const String sortingVisualizer = '/sorting/visualizer';
+  static const String sortingComparison = '/sorting/comparison';
 
   // Searching
   static const String searchingList = '/searching';
