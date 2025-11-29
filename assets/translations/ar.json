@@ -1,0 +1,59 @@
+{
+  "app_name": "مُصوِّر الخوارزميات",
+  "categories": {
+    "sorting": "الترتيب",
+    "searching": "البحث",
+    "graph": "الرسوم البيانية والمسارات",
+    "data_structures": "هياكل البيانات",
+    "recursion": "التكرار",
+    "dynamic_programming": "البرمجة الديناميكية"
+  },
+  "algorithms": {
+    "bubble_sort": "ترتيب الفقاعات",
+    "quick_sort": "الترتيب السريع",
+    "merge_sort": "ترتيب الدمج",
+    "insertion_sort": "ترتيب الإدراج",
+    "selection_sort": "ترتيب الاختيار",
+    "heap_sort": "ترتيب الكومة",
+    "linear_search": "البحث الخطي",
+    "binary_search": "البحث الثنائي",
+    "bfs": "البحث بالعرض أولاً",
+    "dfs": "البحث بالعمق أولاً",
+    "dijkstra": "خوارزمية ديكسترا",
+    "a_star": "خوارزمية A*"
+  },
+  "controls": {
+    "play": "تشغيل",
+    "pause": "إيقاف",
+    "step_forward": "الخطوة التالية",
+    "step_backward": "الخطوة السابقة",
+    "reset": "إعادة تعيين",
+    "speed": "السرعة",
+    "randomize": "عشوائي"
+  },
+  "complexity": {
+    "time": "تعقيد الوقت",
+    "space": "تعقيد المساحة",
+    "best": "الأفضل",
+    "average": "المتوسط",
+    "worst": "الأسوأ"
+  },
+  "home": {
+    "title": "مُصوِّر الخوارزميات",
+    "choose_category": "اختر فئة",
+    "explore_categories": "استكشف فئات الخوارزميات المختلفة",
+    "algorithms_count": "{count} خوارزميات"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "appearance": "المظهر",
+    "language": "اللغة",
+    "animation": "الرسوم المتحركة",
+    "about": "حول",
+    "theme_system": "النظام",
+    "theme_light": "فاتح",
+    "theme_dark": "داكن",
+    "default_speed": "سرعة الرسوم المتحركة الافتراضية",
+    "version": "الإصدار"
+  }
+}

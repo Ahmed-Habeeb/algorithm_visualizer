@@ -1,0 +1,59 @@
+{
+  "app_name": "Algorithm Visualizer",
+  "categories": {
+    "sorting": "Sorting",
+    "searching": "Searching",
+    "graph": "Graph & Pathfinding",
+    "data_structures": "Data Structures",
+    "recursion": "Recursion",
+    "dynamic_programming": "Dynamic Programming"
+  },
+  "algorithms": {
+    "bubble_sort": "Bubble Sort",
+    "quick_sort": "Quick Sort",
+    "merge_sort": "Merge Sort",
+    "insertion_sort": "Insertion Sort",
+    "selection_sort": "Selection Sort",
+    "heap_sort": "Heap Sort",
+    "linear_search": "Linear Search",
+    "binary_search": "Binary Search",
+    "bfs": "Breadth-First Search",
+    "dfs": "Depth-First Search",
+    "dijkstra": "Dijkstra's Algorithm",
+    "a_star": "A* Algorithm"
+  },
+  "controls": {
+    "play": "Play",
+    "pause": "Pause",
+    "step_forward": "Next Step",
+    "step_backward": "Previous Step",
+    "reset": "Reset",
+    "speed": "Speed",
+    "randomize": "Randomize"
+  },
+  "complexity": {
+    "time": "Time Complexity",
+    "space": "Space Complexity",
+    "best": "Best",
+    "average": "Average",
+    "worst": "Worst"
+  },
+  "home": {
+    "title": "Algorithm Visualizer",
+    "choose_category": "Choose a Category",
+    "explore_categories": "Explore different algorithm categories",
+    "algorithms_count": "{count} algorithms"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "language": "Language",
+    "animation": "Animation",
+    "about": "About",
+    "theme_system": "System",
+    "theme_light": "Light",
+    "theme_dark": "Dark",
+    "default_speed": "Default Animation Speed",
+    "version": "Version"
+  }
+}
