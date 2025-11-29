@@ -2,6 +2,7 @@ import 'package:get_it/get_it.dart';
 
 import '../../../core/di/base_di.dart';
 import '../presentation/bloc/sorting_bloc.dart';
+import '../presentation/bloc/sorting_comparison_bloc.dart';
 
 class SortingDI extends BaseDI {
   final GetIt _getIt = GetIt.instance;
